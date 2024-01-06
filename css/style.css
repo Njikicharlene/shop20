@@ -1,0 +1,395 @@
+ 
+
+
+ body {
+ font-family: 'Mooli', sans-serif;
+}
+  .header-image {
+    height: 150vh;
+    width: 100%;
+    object-fit: cover;
+  }
+   
+  .container {
+  
+    position: absolute;
+    right: 36px;
+    top: 20px;
+     font-size: 24px;
+    cursor: pointer;
+    color: black;
+    
+  }
+  .menu:hover {
+    text-decoration: underline;
+     
+     
+  }
+  .menu {
+  
+    color: black;
+text-decoration: none;
+
+  }
+  .text {
+    position: absolute;
+    left: 56px;
+    top: 300px;
+  }
+  .menu1 {
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 180px;
+    align-items: center;
+  }
+
+  .menu1:hover {
+    text-decoration: underline;
+  }
+  .section-title {
+    font-size: 50px;
+    font-weight: 100px;
+    position: relative;
+  }
+
+  .section-title::before {
+    content:"" ;
+     position: absolute;
+   background-color: yellow;
+     width: 50px;
+     height: 7px;
+     bottom: 0;
+  }
+  /* schuhe im trend*/
+  
+  
+  .no-grid {
+    min-width: 50px;
+    height:100px;
+    flex: 1;
+  }
+   
+  .plan-box {
+    background-size:cover;
+    position: center;
+    background-color: blue;
+    min-width: 50px;
+    height:500px;
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+ .best-plants {
+     min-height: 50px;
+  display: flex;
+
+}
+  .plan1 {
+    background-image: url(../images/01.jpg) ;
+    min-width: 50px;
+    height:500px; 
+  }
+  .plan2 {
+    background-image: url(../images/004.jpg) ;
+    min-width: 50px;
+    height:500px;
+  }
+  .plan3 {
+    background-image: url(../images/03.jpg) ;
+    min-width: 50px;
+    height:500px;
+  }
+  .plan4 {
+    background-image: url(../images/n12.jpg) ;
+    min-width: 50px;
+    height:500px;   
+  }
+
+  .plant-details {
+    position: relative;
+    background-color: antiquewhite;
+    bottom: 0;
+    padding: 3px 10px;
+    width: 100%;
+    line-height: 3px;
+    bottom: 0%;
+  }
+  
+  .plant-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+  }
+  .plant-price {
+    color: black;
+    font-size: 14px;
+  }
+  .plant-price1 {
+    color: red;
+    font-size: 14px;
+  }
+
+
+ 
+/* fin*/
+
+
+  .alleschuhe {
+    margin: 10px;
+    height: 500px;
+    min-width: 50px;
+
+
+  }
+  
+ .best-plants1 {
+     
+  min-height: 50px;
+  display: flex;
+
+}
+ 
+.plan5 {
+  background-image: url(../images/n1.jpg) ;
+  min-width: 50px;
+  height:500px;
+  align-items: center;
+
+  
+  
+}
+.plan6 {
+  background-image: url(../images/n2.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan7 {
+  background-image: url(../images/n3.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan8 {
+  background-image: url(../images/n4.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan9 {
+  background-image: url(../images/n5.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan10 {
+  background-image: url(../images/n6.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan11 {
+  background-image: url(../images/n7.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan12 {
+  background-image: url(../images/n8.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan13 {
+  background-image: url(../images/n9.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+.plan14 {
+  background-image: url(../images/n10.jpg) ;
+  min-width: 50px;
+  height:500px;
+  
+  
+}
+  .saleschuhe {
+    margin: 5px;
+    height: 500px;
+    min-width: 50px;
+
+  }
+  .schuh-grid1 {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns:repeat(5, 1fr) ;
+    grid-template-columns:repeat(5, 1fr);
+  }
+  .schuh-grid2 {
+    display: grid;
+    min-height: 150vh;
+     
+    grid-template-columns:repeat(5, 1fr) ;
+    grid-template-columns:repeat(5, 1fr);
+    
+
+  }
+  .schuh-sale {
+    display: grid;
+    min-height: 150vh;
+     
+    grid-template-columns:repeat(5, 1fr) ;
+    grid-template-columns:repeat(5, 1fr);
+    
+
+  }
+   
+    
+    .plan01 {
+      background-image:  url(../images/n1.jpg);
+      
+    }
+    .plan02 {
+      background-image:  url(../images/n2.jpg);
+      
+    }
+    .plan03 {
+      background-image:  url(../images/n3.jpg);
+      
+    }
+    .plan04 {
+      background-image:  url(../images/n4.jpg);
+      
+    }
+
+    .plan05 {
+      background-image:  url(../images/n5.jpg);
+      
+    
+  }
+  .plan06 {
+    background-image:  url(../images/n6.jpg);
+   
+  }
+  .plan07 {
+    background-image:  url(../images/n7.jpg);
+    
+  }
+  .plan08 {
+    background-image:  url(../images/n8.jpg);
+    
+  }
+  .plan09 {
+    background-image:  url(../images/n9.jpg);
+    
+  }
+  .plan010 {
+    background-image:  url(../images/n10.jpg);
+    
+  }
+
+
+
+
+  .schuh-sale1 {
+    background-image:  url(../images/001.jpg);
+    
+  
+}
+.schuh-sale2{
+  background-image:  url(../images/002.jpg);
+ 
+}
+.schuh-sale3 {
+  background-image:  url(../images/7.jpg);
+  
+}
+.schuh-sale4 {
+  background-image:  url(../images/004.jpg);
+  
+}
+.schuh-sale5{
+  background-image:  url(../images/n11.jpg);
+  
+}
+
+
+.menu0 {
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  margin: 18px;
+  align-items: center;
+ cursor: pointer;
+}
+
+.menu0:hover {
+  text-decoration: underline;
+}
+
+.menu2 {
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  margin: 18px;
+  align-items: center;
+ cursor: pointer;
+}
+
+.menu2:hover {
+  text-decoration: underline;
+}
+ 
+ 
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+    font-weight: 600;
+  }
+
+
+
+  footer a.cgv {
+    text-decoration: none;
+    color: black;
+    
+  }
+
+ @media screen and (max-width:800px)  {
+
+  .schuh-grid2 {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 10px;
+
+  }
+  
+  .best-plants1 {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    align-items: center;
+
+  }
+  
+ } 
+
+
+
+
+
+ 
